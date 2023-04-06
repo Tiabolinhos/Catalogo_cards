@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+
+}
+
+body {
+
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 3%, rgba(136, 151, 199, 1) 55%, rgba(244, 107, 203, 1) 100%);
+
+}
+
+#banner{
+
+    background-image: url("/img/5da3c22600499bd27a2962fa58fdd787.png");
+    height: 200px;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color:#d677abe1;
+    
+}
+
+
+
+
+
+/*.topo {
+
+    width: 400px;
+    height: 150px;
+    margin-left:37%;
+    margin-top: 20%;
+    border: 1px solid;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 3px rgb(53, 50, 65);
+
+}
+*/
+#menu-h ul li {
+    margin: 20px;
+    padding: 1px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    text-align: center;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    border-radius: 50px;
+    display:inline-block;
+    overflow: hidden;
+
+}
+
+#menu-h {
+
+
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    
+    
+
+}
+
+#menu-h ul li{
+
+    margin-left: 100px;
+    margin-right:50px;
+    
+}
+
+#menu-h ul li a {
+    text-align: center;
+    color: #FFF;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    transition: background 3s;  
+    background-size: cover;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(208, 159, 250);
+  
+}
+
+
+/*
+.img {
+
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+
+
+}
+*/
+.card {
+    width: 300px;
+    height: 520px;
+    border: 1px solid;
+    margin-left: 15%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 4px 3px rgb(81, 52, 102);
+
+}
+
+.card_fundo {
+    background-image: url("/img/crop.jpg");
+    background-size:cover;
+    width: 300px;
+    height: 300px;
+}
+
+.card_img {
+    position: relative;
+    width: 60%;
+    left: 15%;
+    margin-top: 7%;
+    margin-left: 5%;
+    border-radius: 5px;
+
+}
+
+.card_botao button{
+
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: rgb(194, 194, 246);
+    border:1px;
+    
+}
+
+.card2 {
+    width: 400px;
+    height: 600px;
+    margin-left: 60%;
+    border: 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.card_fundo2 {
+    background-image: url("/img/download\ \(2\).jpg");
+
+
+
+}
+
+.card_img2 {
+    width: 70%;
+    left: 15%;
+
+}
+
+.card_descrição h2{
+
+    text-align: center;
+    font-family: cursive;
+    padding:6px 6px 6px 6px;
+    font-size: 14px;
+   color:rgb(65, 15, 59);
+}
+
+.card_descrição p{
+
+    text-align: center;
+    font-family: cursive;
+    padding:6px 6px 6px 6px;
+    font-size: 14px;
+    color:white;
+}
