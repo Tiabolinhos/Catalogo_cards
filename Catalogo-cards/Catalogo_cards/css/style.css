@@ -9,23 +9,28 @@
 
 body {
 
-    background:  rgba(136, 151, 199, 1); 
+    background: rgba(136, 151, 199, 1);
 
 }
 
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background:  rgba(136, 151, 199, 1);        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: rgb(39, 39, 108);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
-  }
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(136, 151, 199, 1);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(39, 39, 108);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);
+    /* creates padding around scroll thumb */
+}
 
 #banner {
 
@@ -118,47 +123,59 @@ body::-webkit-scrollbar {
 
 }
 */
+
+.container {
+
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
 .card {
-    width: 300px;
-    height: 540px;
+    width: 350px;
+    height: 547px;
     border: 5px double;
-    margin-left: 15%;
-    border-radius: 20px;
+    display: flex;
     overflow: hidden;
-    position: absolute;
+    gap: 20px;
+    flex-direction: column;
     box-shadow: 4px 3px rgb(81, 52, 102);
 
 }
 
-.card_fundo {
+.card_fundo figure {
     background-image: url("/Catalogo-cards/Catalogo_cards/img/crop.jpg");
     background-size: cover;
-    width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
     border-bottom: 4px double;
 }
 
 .card_img {
-    position: relative;
+
     width: 60%;
     left: 15%;
-    margin-top: 7%;
-    margin-left: 5%;
     border-radius: 5px;
     border: 2px solid;
     box-shadow: 3px 2px rgb(81, 52, 102);
 
 }
 
+.card_botao{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  margin-bottom: 1%;
+  
+}
 .card_botao button {
 
-    display: block;
-    margin: auto;
+    
     border-radius: 10px;
     padding: 5px 10px;
     background-color: rgb(253, 253, 253);
-    border: 1px;
-    height: 30px;
     border: 1px solid;
 
 
@@ -168,105 +185,32 @@ body::-webkit-scrollbar {
 
     text-decoration: none;
     font-family: cursive;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: bold;
     color: rgb(81, 52, 102);
 
 
 }
 
-
-.card2 {
-    width: 300px;
-    height: 540px;
-    margin-left: 60%;
-    border: 5px double;
-    border-radius: 20px;
-    box-shadow: 4px 3px rgb(81, 52, 102);
-    overflow: hidden;
-    position: relative;
-
-}
-
-.card_fundo2 {
-    background-image: url("/Catalogo-cards/Catalogo_cards/img/crop.jpg");
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    border-bottom: 4px double;
-
-
-}
-
-.card_img2 {
-    position: relative;
-    width: 60%;
-    left: 15%;
-    margin-top: 7%;
-    margin-left: 5%;
-    border-radius: 5px;
-    border: 2px solid;
-    box-shadow: 3px 2px rgb(81, 52, 102);
-
+.card_descrição {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 0.9em;
 }
 
 .card_descrição h2 {
 
     text-align: center;
-    font-family: cursive;
-    padding: 6px 6px 6px 6px;
-    font-size: 14px;
     color: rgb(81, 52, 102);
 }
 
-.card_descrição p {
+.card_descrição p{
 
-    text-align: center;
-    font-family: cursive;
-    padding: 6px 6px 6px 6px;
-    font-size: 14px;
-    color: white;
-}
-
-.card_descrição2 h2 {
-
-    text-align: center;
-    font-family: cursive;
-    padding: 6px 6px 6px 6px;
-    font-size: 14px;
-    color: rgb(81, 52, 102);
-}
-
-.card_descrição2 p {
-
-    text-align: center;
-    font-family: cursive;
-    padding: 6px 6px 6px 6px;
-    font-size: 14px;
-    color: white;
-}
-
-.card_botao2 button {
-
-    display: block;
-    margin-top: 13%;
-    margin-left:35%;
-    border-radius: 10px;
-    padding: 5px 10px;
-    background-color: rgb(253, 253, 253);
-    border: 1px;
-    height: 30px;
-    border: 1px solid;
-    
-}
-
-.card_botao2 button a {
-
-    
-    text-decoration: none;
-    font-family: cursive;
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(81, 52, 102);
-
+  text-align:justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: cursive;
+  color: white;
+  
 }
