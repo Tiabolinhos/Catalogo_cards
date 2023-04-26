@@ -33,11 +33,13 @@
 
         </nav>
     </header>
-   
+
 
     <main>
-         <div class="container">
-       
+
+        <section>
+        <div class="container">
+
             <div class="card">
                 <div class="card_fundo">
                     <figure>
@@ -59,8 +61,8 @@
                 </div>
 
             </div>
-     
-       
+
+
             <div class="card">
                 <div class="card_fundo">
                     <figure>
@@ -82,7 +84,7 @@
                     </button>
                 </div>
             </div>
-        
+
             <div class="card">
                 <div class="card_fundo">
                     <figure>
@@ -104,11 +106,11 @@
                 </div>
 
             </div>
-        
+
             <div class="card">
                 <div class="card_fundo">
                     <figure>
-                        <img class="card_img" src="/Catalogo-cards/Catalogo_cards/img/download (1).jpg" alt="capa">
+                        <img class="card_img" src="/Catalogo-cards/Catalogo_cards/img/71QXB9AtyvL.jpg" alt="capa">
                     </figure>
                 </div>
                 <div class="card_descrição">
@@ -124,9 +126,82 @@
                             target="_blank">Comprar</a>
                     </button>
                 </div>
-    </div>
+            </div>
+</section>
+<section>
+            <div action="/cadastro" method="post" class="formulario">
+                <h1 class="formulario__titulo">Cadastro</h1>
+                <div class="formulario__campos">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome completo" />
+                </div>
+        
+                <div class="formulario__campos">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Informe seu email" />
+                </div>
+        
+                <div class="formulario__campos">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone" />
+                </div>
+                <div>
+                    <label for="datanascimento">Data nascimento:</label>
+                    <input type="date" name="dataNascimento" id="espDevFront" value="front">
+                </div>
+                <div class="formulario__campos">
+                    <label for="mensagem">Deixe sua mensagem para a pagina :D :</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" style="resize: none"></textarea>
+                </div>
+                <div class="formulario_checkbox">
+                   
+                    <h4>Quais suas preferencias de genero?</h4>
+                        <input type="checkbox" name="genero" id="GComedia" value="front">
+                        <label for="GComedia">comedia</label>
+        
+                    </div>
+                    <div>
+                        <input type="checkbox" name="genero" id="Gterror" value="front">
+                        <label for="Gterror">terror</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="genero" id="Gterror" value="front">
+                        <label for="Gterror">terror</label>
+                    </div>
+                </div>
+        
+                <div class="formulario_checklist">
+                    <select name="generos" id="generos">
+                        <option value="none" selected>Selecione oque você prefere</option>
+                        <option value="Series">Series</option>
+                        <option value="filmes">Filmes</option>
+                        <option value="documentarios">Documentarios</option>
+                    </select>
+                </div>
+                <div class="formulario__botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+                </form>
+</section>
+            
     </main>
+    <footer class="footer">
+        <h5>Copyright 2023 © - Tiabolinhos™ </h5>
+        <p>Meu contato:</p>
+        <i class="fa-brands fa-whatsapp fa-2xs"></i>
+        <a href="https://wa.me/5541984629768" target="_blank">
+            <img src="img/whatsapp (1).svg" alt="whatsapp">
+        </a>
 
+        <i class="fa-brands fa-discord">
+
+           
+            <a href="https://discord.gg/PwyjxCuP" target="_blank">
+                 <img src="img/discord (1).svg" alt="Discord">
+            </a>
+        </i>
+    </footer>
 </body>
 
 </html>
