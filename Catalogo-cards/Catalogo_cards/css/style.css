@@ -249,7 +249,7 @@ body::-webkit-scrollbar-thumb {
 }
 .formulario {
     width: 80%;
-   
+   background-color: #8b7b8e52;
     border-radius: 10px;
    
     margin: auto;
@@ -278,10 +278,10 @@ body::-webkit-scrollbar-thumb {
   .formulario__campos input,
   textarea {
     background-color: rgb(238, 239, 240);
-    color: rgb(64, 64, 64);
+    color: rgb(41, 40, 40);
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid rgb(64, 64, 64);
+    border: 1px solid rgb(104, 39, 136);
   }
   
   .formulario__botoes {
